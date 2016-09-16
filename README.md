@@ -67,7 +67,7 @@ list of all available commands and product oin the store.
 
    Command are defined as java Spring beans in the configuration. Each command it s annotated with a custom Annotation and a specific  java interface
    that mark the bean as command to execute and as well as possible argument via command line :
-   1. Custom annotation : MLDWireOption
-   2. Interface : MLDCommand
+   1. Custom annotation : WireOption
+   2. Interface : DCommand
 
    The annotation set as well the name and he descrition of teh command that can be executed.
